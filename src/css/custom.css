@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&family=Geist+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Fondations visuelles synchronisées avec apps/frontend/app/assets/css/main.css. */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Manrope', var(--font-sans);
+  --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --racines-primary-50: #effdf5;
+  --racines-primary-100: #d9fbe8;
+  --racines-primary-200: #b3f5d1;
+  --racines-primary-300: #75edae;
+  --racines-primary-400: #00dc82;
+  --racines-primary-500: #00c16a;
+  --racines-primary-600: #00a155;
+  --racines-primary-700: #007f45;
+  --racines-primary-800: #016538;
+  --racines-primary-900: #0a5331;
+  --racines-primary-950: #052e16;
+  --racines-zinc-50: #fafafa;
+  --racines-zinc-100: #f4f4f5;
+  --racines-zinc-200: #e4e4e7;
+  --racines-zinc-500: #71717a;
+  --racines-zinc-700: #3f3f46;
+  --racines-zinc-900: #09090b;
+  --racines-zinc-950: #020202;
+
+  --ifm-font-family-base: var(--font-sans);
+  --ifm-font-family-monospace: var(--font-mono);
+  --ifm-heading-font-family: var(--font-heading);
+  --ifm-font-weight-base: 600;
+  --ifm-font-weight-bold: 700;
+  --ifm-heading-font-weight: 800;
+  --ifm-color-primary: var(--racines-primary-500);
+  --ifm-color-primary-dark: var(--racines-primary-600);
+  --ifm-color-primary-darker: #00b563;
+  --ifm-color-primary-darkest: var(--racines-primary-700);
+  --ifm-color-primary-light: var(--racines-primary-400);
+  --ifm-color-primary-lighter: #1ee18f;
+  --ifm-color-primary-lightest: var(--racines-primary-300);
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: var(--racines-zinc-900);
+  --ifm-navbar-background-color: rgb(255 255 255 / 75%);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-border-color: var(--racines-zinc-200);
+  --ifm-border-radius: 0.4rem;
+  --ifm-code-font-size: 95%;
+  --ifm-global-radius: 0.4rem;
+  --ifm-heading-letter-spacing: -0.03em;
+  --docusaurus-highlighted-code-line-bg: rgb(0 193 106 / 10%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  letter-spacing: -0.03em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.03em;
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--ifm-navbar-border-color);
+}
+
+.navbar__logo img {
+  height: 2rem;
+  width: 2rem;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: var(--racines-primary-400);
+  --ifm-color-primary-dark: var(--racines-primary-500);
+  --ifm-color-primary-darker: #00b563;
+  --ifm-color-primary-darkest: var(--racines-primary-600);
+  --ifm-color-primary-light: #1ee18f;
+  --ifm-color-primary-lighter: var(--racines-primary-300);
+  --ifm-color-primary-lightest: var(--racines-primary-200);
+  --ifm-background-color: var(--racines-zinc-950);
+  --ifm-background-surface-color: var(--racines-zinc-900);
+  --ifm-font-color-base: var(--racines-zinc-100);
+  --ifm-navbar-background-color: rgb(9 9 11 / 75%);
+  --ifm-navbar-border-color: var(--racines-zinc-700);
+  --docusaurus-highlighted-code-line-bg: rgb(0 220 130 / 15%);
+}

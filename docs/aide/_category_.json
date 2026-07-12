@@ -1,0 +1,8 @@
+{
+  "label": "Aide",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Résoudre les problèmes les plus fréquents et contacter le support."
+  }
+}

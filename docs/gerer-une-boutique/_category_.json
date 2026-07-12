@@ -1,0 +1,8 @@
+{
+  "label": "Gérer une boutique",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Configurer une boutique, son catalogue et ses commandes."
+  }
+}

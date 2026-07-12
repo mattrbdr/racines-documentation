@@ -1,0 +1,8 @@
+{
+  "label": "Gérer une organisation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Administrer une organisation, ses membres et ses paramètres."
+  }
+}
