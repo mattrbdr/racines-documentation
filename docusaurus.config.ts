@@ -100,8 +100,12 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Accueil',
+              label: 'Démarrer',
               to: '/docs/demarrer',
+            },
+            {
+              label: 'Aide',
+              to: '/docs/aide',
             },
           ],
         },
@@ -113,30 +117,30 @@ const config: Config = {
               href: 'https://racinesapp.com',
             },
             {
-              label: 'Contact',
-              href: 'https://racinesapp.com/contact',
+              label: 'La plateforme',
+              href: 'https://racinesapp.com/solutions/racines',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/mattrbdr/racinesapp-v2',
+              href: 'https://github.com/mattrbdr/racines-documentation',
             },
           ],
         },
         {
-          title: 'Ressources',
+          title: 'Support',
           items: [
             {
               label: 'Centre d’aide',
               href: 'https://racinesapp.com/help',
             },
             {
-              label: 'Feuille de route',
-              href: 'https://racinesapp.com/roadmap',
+              label: 'Nous contacter',
+              href: 'https://racinesapp.com/contact',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Racines.`,
+      copyright: `Racines · Plateforme de circuits courts · © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,
