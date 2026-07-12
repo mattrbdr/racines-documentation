@@ -87,7 +87,7 @@ const config: Config = {
         },
         {href: 'https://racinesapp.com', label: 'Racines', position: 'left'},
         {
-          href: 'https://github.com/mattrbdr/racinesapp-v2',
+          href: 'https://github.com/mattrbdr/racines-documentation',
           label: 'GitHub',
           position: 'right',
         },
