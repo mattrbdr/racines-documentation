@@ -67,8 +67,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar__logo img {
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.footer {
+  padding: 3rem 0 1.5rem;
+  background: var(--racines-zinc-950);
+  border-top: 1px solid var(--racines-zinc-700);
+}
+
+.footer__links {
+  margin-bottom: 2.5rem;
+}
+
+.footer__title {
+  margin-bottom: 0.875rem;
+  color: var(--racines-zinc-50);
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.footer__item {
+  margin-top: 0.5rem;
+}
+
+.footer__link-item {
+  color: var(--racines-zinc-500);
+  font-size: 0.9rem;
+}
+
+.footer__link-item:hover {
+  color: var(--racines-primary-400);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  padding-top: 1.25rem;
+  color: var(--racines-zinc-500);
+  border-top: 1px solid var(--racines-zinc-700);
+  font-size: 0.8rem;
 }
 
 [data-theme='dark'] {
